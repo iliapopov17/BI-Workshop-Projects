@@ -4,6 +4,7 @@ Supplementary files for project:
 ***[Kirill Petrikov](https://github.com/KirPetrikov) and Ilia Popov***
 
 **Files**:
+- `BI_Project_2_Petrikov-Popov.pdf` - report on the project in thesis format
 - `Snakefile`  - rules file  for Snakemake workflow to reproduce pipeline
 - `project2.yml` - file for setting up the conda/mamba virtual environment
 - `vcf_parser.py` - Python script to extract values from vcf-file columns `REF`, `POS`, `ALT,` and `FORMAT:FREQ` to tsv-file.
