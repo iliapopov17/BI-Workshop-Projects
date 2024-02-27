@@ -1,0 +1,33 @@
+name: BI_proj1
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8
+  - ca-certificates=2023.7.22
+  - expat=2.5.0
+  - fastqc=0.12.1
+  - font-ttf-dejavu-sans-mono=2.37
+  - fontconfig=2.14.2
+  - freetype=2.12.1
+  - libcxx=16.0.6
+  - libexpat=2.5.0
+  - libffi=3.4.2
+  - libpng=1.6.39
+  - libsqlite=3.43.2
+  - libzlib=1.2.13
+  - ncurses=6.4
+  - openjdk=21.0.1
+  - openssl=3.1.4
+  - perl=5.32.1
+  - pip=23.3.1
+  - python=3.12.0
+  - readline=8.2
+  - setuptools=68.2.2
+  - snpeff=5.2
+  - tk=8.6.13
+  - tzdata=2023c
+  - wheel=0.41.2
+  - xz=5.2.6
+  - zlib=1.2.13
