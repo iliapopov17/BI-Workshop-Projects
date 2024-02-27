@@ -9,7 +9,7 @@ During the project we analysed data from 23andMe test of our teacher in Bioinfor
 
 ## Project 4. Eukaryotic genomes: Tardigrades
 
-For [Project 4](Project%204) we performed tardigrade Ramazzottius varieornatus genome annotation and protein function prediction.<br>
+For [Project 4](Project%204) we performed tardigrade *Ramazzottius varieornatus* genome annotation and protein function prediction.<br>
 During the project we used precomputed `AUGUSTUS` results, including `fasta` and `GFF` files to perform a structural annotation of *Ramazzottius varieornatus* (strain YOKOZUNA-1) genome. To localise proteins associated with DNA we performed a local alignment-based search with `blastp`. Subcellular localization predictions were made with `WoLF PSORT` and `TargetP`<br>. To identify homologous sequences we used `BLAST` search against the `UniProtKB/Swiss-Prot` database. To identify protein domains and motifs in the selected protein sequences we performed `pfam` predictions with `HMMERz and `Pfam` databases.
 
 
@@ -24,5 +24,5 @@ During the project we also used `FastQC`, `Trimmomatic`, `bwa`, `samtools` and `
 
 ## Project 1. Alignment to reference, variant calling
 
-For [Project 1](Project%201) we did variant calling of Escherichia coli WGS.<br>
+For [Project 1](Project%201) we did variant calling of *Escherichia coli* WGS.<br>
 During the project we did data preprocessing with `FastQC` and `Trimmomatic`, then we mapped trimmed reads to a large reference genome with `bwa`, generated `mpileup` file using `samtools` and performed variant calling with `VarScan`
