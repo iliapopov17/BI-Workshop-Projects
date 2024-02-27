@@ -6,7 +6,7 @@ Supplementary files for project report:
 **Files**:
 - `BI_Project_1_Petrikov-Popov.pdf`  - report on the project in thesis format
 - `project1.yml` - file for setting up the conda/mamba virtual environment
-- `Lab journal.ipynb` - laboratory journal with command to recreate the project and results
+- `Lab journal.ipynb` - laboratory journal with command to reproduce pipeline
 
 **Instruction**:
 - Create new environment `project1`
