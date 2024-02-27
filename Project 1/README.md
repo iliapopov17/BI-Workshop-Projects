@@ -8,8 +8,7 @@ Supplementary files for project report:
 - `project1.yml` - file for setting up the conda/mamba virtual environment
 - `Lab journal.ipynb` - laboratory journal with command to recreate the project and results
 
-  #### Instruction
-
+**Instruction**:
 - Create new environment `project1`
 ```bash
 conda env create -f project1.yml
