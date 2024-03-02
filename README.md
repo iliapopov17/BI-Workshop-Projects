@@ -2,6 +2,11 @@
 
 This repository for **Workshop Course *Homeworks*** in *Bioinformatics Institute 2023-2024*
 
+## Project 6. Baking Bread
+
+For [Project 6](Project%206) we explored Saccharomyces cerevisiae transcriptome dynamics during a 30-minute anaerobic fermentation.<br>
+Used RNA-seq and `HISAT2`, `featureCounts`, `DESeq2` for alignment, quantification, and differential expression analysis. Identified 1905 significant genes, revealing upregulation in glycerol biosynthesis and glucose transport.
+
 ## Project 5. "H+"
 
 For [Project 5](Project%205) we performed genotyping and SNP annotation of human 23andMe project data.<br>
