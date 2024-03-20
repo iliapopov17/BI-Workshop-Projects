@@ -1,6 +1,6 @@
 # Repository for Workshop Course Homeworks in Bioinformatics Institute
 
-This repository for **Workshop Course *Homeworks*** in *Bioinformatics Institute 2023-2024*
+> This repository for **Workshop Course *Homeworks*** in *Bioinformatics Institute 2023-2024*
 
 ## Project 6. Baking Bread
 
