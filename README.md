@@ -2,6 +2,12 @@
 
 > This repository for **Workshop Course *Homeworks*** in *Bioinformatics Institute 2023-2024*
 
+## Project 7. Dead Man's Teeth
+
+For [Project 7](Project%207) we investigated the microbial communities in ancient dental calculus samples.
+Pipeline using `QIIME2` was applied to analyse 16s rRNA amplicon sequencing data.
+The `Standard` database in `Kraken2` was used for metagenomic profiling of Shotgun Sequencing data, and `Pavian` was used to visualise the results. The _Tannerella forsythia_ genome was downloaded from the `NCBI` database using the `entrez-direct` package, and the `bwa` algorithm was used to index it and then align metagenomic contigs to it. The `samtools` was used to compress, sort and index the reads aligned to the reference. The `bedtools` was used to find intersections of the alignment with the genome annotation file.
+
 ## Project 6. Baking Bread
 
 For [Project 6](Project%206) we explored _Saccharomyces cerevisiae_ transcriptome dynamics during a 30-minute anaerobic fermentation.<br>
