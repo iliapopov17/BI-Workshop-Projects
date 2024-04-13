@@ -4,7 +4,7 @@
 
 ## Project 8. RepSeq Sudoku
 
-Short description for [Project 8](Project%208) to be written.
+For [Project 8](Project%208) we delved into the intricacies of T-cell receptor β-chain repertoire diversity across CMV+ and CMV- donors. Utilizing `RepSeq` analysis, 16 TCRB samples were annotated.
 
 ## Project 7. Dead Man's Teeth
 
