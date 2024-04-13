@@ -2,6 +2,10 @@
 
 > This repository for **Workshop Course *Homeworks*** in *Bioinformatics Institute 2023-2024*
 
+## Project 8. RepSeq Sudoku
+
+Short description for [Project 8](Project%208) to be written.
+
 ## Project 7. Dead Man's Teeth
 
 For [Project 7](Project%207) we investigated the microbial communities in ancient dental calculus samples.
