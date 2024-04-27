@@ -1,5 +1,7 @@
 # Ancient Oral Chronicles: Unveiling Microbial Secrets Through Dental Calculus
 
+This is a short version of the report. The full version is available here: [PDF](https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%207/BI_Project_7_Popov.pdf)
+
 ### Abstract
 This study delves into the microbial communities preserved in dental calculus samples extracted from human remains dating back over a millennium. By analyzing these ancient biomolecules, we gain insights into historical diseases, dietary patterns, and the evolutionary trajectories of typical oral bacteria. Notably, the presence of the red complex - a group of pathogens associated with severe periodontal disease-stands out in ancient oral microbiomes.
 
