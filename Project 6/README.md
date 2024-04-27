@@ -1,5 +1,7 @@
 # Transcriptomic Insights into _Saccharomyces cerevisiae_
 
+This is a short version of the report. The full version is available here: [PDF](https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%206/BI_Project_6_Popov.pdf)
+
 ### Abstract
 This study employs RNA sequencing to investigate the dynamic transcriptomic changes in _Saccharomyces cerevisiae_ during a 30-minute anaerobic fermentation. A total of 1905 genes, with 987 upregulated and 918 downregulated, were identified through rigorous analysis. Key findings include the upregulation of genes associated with glycerol biosynthesis and glucose transportation, vital for yeast survival and fermentation efficiency. Downregulated genes span diverse biological processes, suggesting a nuanced response to anaerobic conditions.
 
