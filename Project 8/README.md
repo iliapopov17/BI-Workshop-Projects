@@ -1,5 +1,7 @@
 # T-cell receptor diversification and specialisation: analysis of β-cell repertoire and phenotypic characterisation in response to cytomegalovirus
 
+This is a short version of the report. The full version is available here: [PDF](https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%208/BI_Project_8_Popov.pdf)
+
 ### Abstract
 This study investigates the diversity and specialization of T-cell receptor (TCR) β-chain repertoires in response to cytomegalovirus (CMV), utilizing 16 samples from two donors, one CMV+. Through 5’-RACE sequencing and phenotypic analysis, we identified distinct T-cell populations and phenotypes, revealing specialized antigen responses and potential CMV recognition in CMV- donors.
 
