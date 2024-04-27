@@ -37,5 +37,6 @@ In this repository you can find:
 
 - `BI_Project_8_Popov.pdf`  - report on the project in thesis format
 - `Lab journal.ipynb` - laboratory journal with commands to reproduce pipeline
+- Dataset for this work is available at my [Google Drive](https://drive.google.com/drive/folders/12BzKtr0yRJ-nNJiplJyBLH3Rh1ohfmKd?usp=sharing)
 - I used the pipeline from the Scanpy tutorial
 - I know about existence of the "Single-cell best practices book". The problem is that right now it is impossible to be used. It requires using both `Pyhon` and `R` at the same time. Yet the newest version of `rpy2` is broken. Version 3.5.1 is not compatible with `anndata2ri`. Closed loop. I wish to learn more from the "Single-cell best practices book" in a bright future.
