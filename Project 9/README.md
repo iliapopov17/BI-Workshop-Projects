@@ -21,9 +21,23 @@ _Table 1. Results of CITE-seq dataset quality control._
 
 Eight major cell groups were identified, including various T cells and dendritic cells. Key findings include:
 
-!!!Insert picture!!!
+<div style='justify-content: center'>
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%209/imgs/tSNE.png" align='center', width="50%">
+</div>
 
 _Figure 1. T-distributed Stochastic Neighbor Embedding (t-SNE) Clustering of Annotated Cell Types._
+
+<div style='justify-content: center'>
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%209/imgs/marker_genes_dot_plot.png" align='center', width="50%">
+</div>
+
+_Figure 2. Dot Plot Visualization of Marker Gene Expression Across Cell Types._
+
+<div style='justify-content: center'>
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%209/imgs/marker_genes_violin_plot.png" align='center', width="50%">
+</div>
+
+_Figure 3. Violin Plot Distribution of Marker Gene Expression Across Cell Types._
 
 - Distinct expression patterns of FCN1, VCAN, AIF1, SPI1, and CD68 helped differentiate monocytes from myeloid dendritic cells.
 - CD4+ transitional memory T cells showed underexpression of genes, annotated with RORA and CCR7.
