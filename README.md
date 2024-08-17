@@ -1,5 +1,8 @@
 # Repository for Workshop Course Homeworks in Bioinformatics Institute
 
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/imgs/workshop_light.png#gh-light-mode-only" width = 50%/>
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/imgs/workshop_dark.png#gh-dark-mode-only" width = 50%/>
+
 > This repository for **Workshop Course *Homeworks*** in *Bioinformatics Institute 2023-2024*
 
 ## Project 9. scRNA-seq
