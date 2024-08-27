@@ -1,5 +1,7 @@
 # Point missense mutations in the _ftsI_, _envZ_ and _acrB_ genes probably causes ampicillin resistance in _E. coli_
 
+
+## Abstract
 The study of the mechanisms of antibiotic resistance is one of the directions to solve the problem of widespread antibiotic-resistant bacteria. In this work variant calling and annotation was performed for reads from genome sequencing of an ampicillin resistant _E. coli_ strain. Six-point mutations were revealed. The resistance is probably due to two key missense SNPs. One leads to the Ala544Gly mutation in penicillin-binding protein 3, involved in the synthesis of peptidoglycan, the other leads to Gln569Leu mutation in AcrB protein, a component of a drug efflux pump. Val241Gly mutation in sensor histidine kinase EnvZ also can play important role.
 
 ## Introduction
