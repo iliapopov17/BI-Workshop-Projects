@@ -30,13 +30,13 @@ _Table 1. Results of CITE-seq dataset quality control._
 _Figure 1. CITE-seq dataset metrics before cells filtration. A – violin plots of the number of genes expressed in the count matrix, the total counts per cell, the percentage of counts in mitochondrial genes; B – scatter plot of the percentage of counts in mitochondrial genes by total counts per cell; C - scatter plot of the number of genes expressed in the count matrix by total counts per cell._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/09_Fig1.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/09_Fig1.png" align='center', width="75%">
 </div>
 
 _Figure 2. CITE-seq dataset metrics after cells filtration. A – violin plots of the number of genes expressed in the count matrix, the total counts per cell, the percentage of counts in mitochondrial genes; B – scatter plot of the percentage of counts in mitochondrial genes by total counts per cell; C - scatter plot of the number of genes expressed in the count matrix by total counts per cell._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/09_Fig2.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/09_Fig2.png" align='center', width="75%">
 </div>
 
 ### Annotated cell types
