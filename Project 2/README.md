@@ -23,9 +23,9 @@ Raw reads from patient’s material [^11] and three isogenic controls obtained f
 `FastQC` v0.12.1 was used to control the quality of raw reads [^15].
 
 ### Reads mapping and variant calling
-Reads mapping against a reference HA gene was performed by `BWA` 0.7.17-r1188 with `BWA- MEM` algorithm [^16].
+Reads mapping against a reference HA gene was performed by `BWA` 0.7.17-r1188 with `BWA-MEM` algorithm [^16].
 
-`Mpileup` file was generated using `samtools` 1.18 [^17], command `mpileup` used with `--max- depth` parameter values as described below.
+`Mpileup` file was generated using `samtools` 1.18 [^17], command `mpileup` used with `--max-depth` parameter values as described below.
 
 Subsequent variant calling was performed by `VarScan` v2.3 [^18], command `mpileup2snp` used with `--min-var-freq` parameter values 0.95 or 0.001.
 
