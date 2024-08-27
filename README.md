@@ -3,7 +3,7 @@
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/imgs/workshop_light.png#gh-light-mode-only" width = 50%/>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/imgs/workshop_dark.png#gh-dark-mode-only" width = 50%/>
 
-> This repository for **Workshop Course *Homeworks*** in *Bioinformatics Institute 2023-2024*
+> This repository for **Workshop Projects** in *Bioinformatics Institute 2023-2024*
 
 ## Project 9. scRNA-seq
 For [Project 9](Project_09) CITE-seq was used to perform a comprehensive single-cell analysis of human bone marrow. Utilizing `Scanpy`, the study processed a dataset of 33,454 cells, identifying eight distinct cell groups. Focus was given to monocytes and myeloid dendritic cells, characterized by specific gene markers such as FCN1, VCAN, AIF1, SPI1, and CD68.
