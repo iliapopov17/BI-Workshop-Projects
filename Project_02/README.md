@@ -38,8 +38,6 @@ The phred quality of raw reads is quite high. A lot of duplicates are normal bec
 ### Quantification of Aligned Reads
 Table 1 presents read mapping statistics, showcasing the number of reads, those successfully mapped to the reference, and the corresponding percentage for the experimental and three control samples. The high mapping percentages indicate robust alignment to the reference genome across all samples.
 
-_Table 1. Read mapping statistics for experimental and control samples._
-
 |Data|Number of reads|Mapped to the reference reads|Percentage|
 |-|-|-|-|
 |Experimental sample|1433060|361116|99.94%|
@@ -47,10 +45,10 @@ _Table 1. Read mapping statistics for experimental and control samples._
 |Control_2|933308|233375|99.97%|
 |Control_3|999856|250108|99.97%|
 
+_Table 1. Read mapping statistics for experimental and control samples._
+
 ### Sequencing Depth Analysis: Comparative Average Coverage of Experimental and Control Samples
 Table 2 presents the average coverage values resulting from read alignment for the experimental sample and three control samples. The experimental sample exhibits a higher average coverage at 31212.7, suggesting robust sequencing depth compared to the control samples.
-
-_Table 2. Average coverage values obtained after reads alignment._
 
 |Data|Value|
 |-|-|
@@ -59,10 +57,10 @@ _Table 2. Average coverage values obtained after reads alignment._
 |Control_2|20655.5|
 |Control_3|22048.1|
 
+_Table 2. Average coverage values obtained after reads alignment._
+
 ### Optimizing Variant Calling: Impact of Coverage Depth on SNP Detection Using 'samtools mpileup'
 Table 3 displays the results of assessing the optimal coverage depth for generating a pileup file in variant calling using the `samtools mpileup` command. The table reveals the number of identified single nucleotide polymorphisms (SNPs) at different `--max-depth` parameter values, demonstrating an incremental trend in SNP detection with increasing coverage depth.
-
-_Table 3. Determining the optimal coverage depth for forming a pileup file for variant calling._
 
 |`--max-depth` parameter value|Found SNP (VarScan results for 0.1% frequency)|
 |-|-|
@@ -72,10 +70,10 @@ _Table 3. Determining the optimal coverage depth for forming a pileup file for v
 |**50’000**|**21**|
 |60’000|21|
 
+_Table 3. Determining the optimal coverage depth for forming a pileup file for variant calling._
+
 ### Variant Frequencies in Isogenic Controls
 Table 4 provides insights into the variant frequencies within isogenic controls, presenting the total number of single nucleotide polymorphisms, their respective frequencies (in percentage), and the associated standard deviations (SD). The data highlights the consistency of SNP occurrence across samples, aiding in the characterization of genetic variability in isogenic backgrounds.
-
-_Table 4. Variants frequency in isogenic controls._
 
 |Sample No|Total SNP number|Frequency, %|SD|
 |-|-|-|-|
@@ -83,11 +81,11 @@ _Table 4. Variants frequency in isogenic controls._
 |2|52|0.24|0.06|
 |3|61|0.25|0.08|
 
+_Table 4. Variants frequency in isogenic controls._
+
 ### Genetic Variants Analysis
 
 Table 5 details the variants identified in the experimental sample, providing information on the reference base, genomic coordinates, alternative bases, variant frequencies in percentage, and their corresponding status. Notably, the table indicates potential sequencing errors, silent mutations, and missense mutations, shedding light on the genetic alterations present in the analyzed sample. Figure 1 provides detailed visual information on missense mutation.
-
-_Table 5. Variants found in experimental sample._
 
 |Reference|Coordinate|Alternative|Frequency, %|Mutation type|
 |-|-|-|-|-|
@@ -113,9 +111,11 @@ _Table 5. Variants found in experimental sample._
 |A|72|G|99.96|-//-|
 |T|774|C|99.96|-//-|
 
-_Figure 1. Specification of Missense (Pro103Ser) mutation in IGV_
+_Table 5. Variants found in experimental sample._
 
 ![Fig1](https://github.com/user-attachments/assets/5767535d-a571-4f18-821f-394d641e19eb)
+
+_Figure 1. Specification of Missense (Pro103Ser) mutation in IGV_
 
 ## Discussion
 The emergence of influenza virus variants that evade vaccine-induced immunity poses a significant challenge to public health. In this study, deep sequencing of the hemagglutinin gene from a patient infected with an H3N2 influenza virus, despite prior vaccination, revealed subtle genetic changes that may contribute to vaccine ineffectiveness. Our analysis identified two mutations with frequencies of 0.84% and 0.94%, one silent and the other resulting in a Pro103Ser substitution in epitope D of the HA.

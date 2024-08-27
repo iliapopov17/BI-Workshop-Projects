@@ -27,8 +27,6 @@ Analysis of the dendrogram on Figure 2 showed that T cell subtypes form four clu
 ### CMV status
 Figure 3 demonstrated that the s3 and s7 CD8 samples belonged to a CMV positive donor. In addition, samples from donors without CMV were found to contain sequences capable of recognising CMV in their CDR3 repertoire. Analysis of the HLA allele histogram on Figure 4 revealed a group of samples with the B*07 HLA allele, indicating that they belonged to a single donor confirmed as CMV+.
 
-_Table 1. Metadata Summary for TCR β-Chain Repertoire Samples. Asterisks indicate potential donor mismatches for  CD4 samples, necessitating a swap of CMV statuses due to  the inability to conclusively match CD4 and CD8 cells from  the same donor._
-
 |Sample|Donor|Subset|Phenotype|CMV|
 |------|-----|------|---------|---|
 |s3    |D1   |CD8   |memory   |+  |
@@ -48,29 +46,31 @@ _Table 1. Metadata Summary for TCR β-Chain Repertoire Samples. Asterisks indica
 |s2    |D2*  |CD4   |naive    |-  |
 |s13   |D2*  |CD4   |naive    |-  |
 
-_Figure 1. Heat map of CDR3 utilisation._
+_Table 1. Metadata Summary for TCR β-Chain Repertoire Samples. Asterisks indicate potential donor mismatches for  CD4 samples, necessitating a swap of CMV statuses due to  the inability to conclusively match CD4 and CD8 cells from  the same donor._
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_08/imgs/CDR3.png" align='center', width="50%">
 </div>
 
-_Figure 2.  Correlation patterns between samples._
+_Figure 1. Heat map of CDR3 utilisation._
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_08/imgs/correlation.png" align='center', width="50%">
 </div>
 
-_Figure 3. Antigenic profile histogram._
+_Figure 2.  Correlation patterns between samples._
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_08/imgs/antigenic.png" align='center', width="50%">
 </div>
 
-_Figure 4. HLA allele profile histogram._
+_Figure 3. Antigenic profile histogram._
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_08/imgs/HLA.png" align='center', width="50%">
 </div>
+
+_Figure 4. HLA allele profile histogram._
 
 ## Discussion
 This study successfully reconstructed metadata for 16 T-cell receptor β-chain repertoire samples. The analysis revealed distinct CDR3 utilization patterns between CD4+ and CD8+ T-cells, enabling population classification. Phenotypic characterization identified potentially antigen-experienced (memory) and naive T-cell subsets.  Interestingly, CMV-specific sequences were detected in both CMV+ and CMV- donors, suggesting potential cross-reactivity or exposure history. However, further investigation is needed to definitively assign CMV status to all samples, particularly for CD4+ cells.

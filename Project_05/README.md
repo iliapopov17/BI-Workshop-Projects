@@ -25,14 +25,12 @@ Using `Y-SNP Subclade Predictor` and `YSEQ Clade Finder`, we classified the Y-DN
 ### Eye colour
 In this individual, the genetic variant rs12896399 on chromosome 14 indicates the GG genotype. This genotype is associated with brown eye colour, which is the result of genetic factors affecting iris pigmentation [^11].
 
-_Figure 1. Eye colour analysis steps._
-
 ![image](https://github.com/user-attachments/assets/0c6b96e3-0f30-487a-91cb-083d460c2c4d)
+
+_Figure 1. Eye colour analysis steps._
 
 ### Clinically significant variants
 A search for clinically significant SNPs using `SnpEff` and `SnpSift` revealed a total of 14 SNPs associated with risk factors for various diseases. Of these, we selected 5 for further analysis and suggestions for genome modification.
-
-_Table 1. Clinically significant SNPs._
 
 |rsID|Chromosome|Coordinates|Genotype|Gene|Associated Condition|Fixed Genotype|
 |-|-|-|-|-|-|-|
@@ -42,7 +40,7 @@ _Table 1. Clinically significant SNPs._
 |rs7794745|7|146489606|AT|CNTNAP2|Slightly increased risk for autism|AA [^15]|
 |rs13266634|8|118184783|CT|SLC30A8|Increased risk for type-2 diabetes|TT [^16]|
 
-
+_Table 1. Clinically significant SNPs._
 
 ## Discussion
 In this study, we analyzed the genome variations of an individual using data from 23andMe, a direct-to-consumer genetic testing service. We identified the mtDNA and Y-DNA haplogroups, the eye colour genotype, and five clinically significant SNPs associated with various diseases. Our findings provide insights into the genetic ancestry, traits, and health risks of the individual, as well as potential applications of genome editing.

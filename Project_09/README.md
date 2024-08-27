@@ -21,23 +21,23 @@ The identification of marker genes was done manually and was guided by data from
 ### Quality Control
 Table 1 presents the outcomes of the data quality control, illustrating the number of cells prior to and subsequent to filtration. Figures 1-2 provide additional visual data. The quality control process effectively eliminated data outliers.
 
-_Table 1. Results of CITE-seq dataset quality control._
-
 |Cells before|Cells after|
 |---|---|
 |33,454|31,382|
 
-_Figure 1. CITE-seq dataset metrics before cells filtration. A – violin plots of the number of genes expressed in the count matrix, the total counts per cell, the percentage of counts in mitochondrial genes; B – scatter plot of the percentage of counts in mitochondrial genes by total counts per cell; C - scatter plot of the number of genes expressed in the count matrix by total counts per cell._
+_Table 1. Results of CITE-seq dataset quality control._
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/09_Fig1.png" align='center', width="75%">
 </div>
 
-_Figure 2. CITE-seq dataset metrics after cells filtration. A – violin plots of the number of genes expressed in the count matrix, the total counts per cell, the percentage of counts in mitochondrial genes; B – scatter plot of the percentage of counts in mitochondrial genes by total counts per cell; C - scatter plot of the number of genes expressed in the count matrix by total counts per cell._
+_Figure 1. CITE-seq dataset metrics before cells filtration. A – violin plots of the number of genes expressed in the count matrix, the total counts per cell, the percentage of counts in mitochondrial genes; B – scatter plot of the percentage of counts in mitochondrial genes by total counts per cell; C - scatter plot of the number of genes expressed in the count matrix by total counts per cell._
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/09_Fig2.png" align='center', width="75%">
 </div>
+
+_Figure 2. CITE-seq dataset metrics after cells filtration. A – violin plots of the number of genes expressed in the count matrix, the total counts per cell, the percentage of counts in mitochondrial genes; B – scatter plot of the percentage of counts in mitochondrial genes by total counts per cell; C - scatter plot of the number of genes expressed in the count matrix by total counts per cell._
 
 ### Annotated cell types
 Figure 3 revealed eight major groups of cells from the dataset which included:
@@ -50,17 +50,15 @@ Figure 3 revealed eight major groups of cells from the dataset which included:
 -	Plasmacytoid dendritic cells (pDCs)
 -	Myeloid dendritic cells (mDCs)
 
-_Figure 3. T-distributed Stochastic Neighbor Embedding (t-SNE) Clustering of Annotated Cell Types._
-
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/09_Fig3.png" align='center', width="50%">
 </div>
 
+_Figure 3. T-distributed Stochastic Neighbor Embedding (t-SNE) Clustering of Annotated Cell Types._
+
 ### Marker genes
 The list of marker genes was established based on recent work6, as shown in Table 2.
 Visualization of marker genes and annotated cell types is provided in Figure 4.
-
-_Table 2. List of marker genes for each cell type._
 
 |Group|Markers|Cell type|
 |-----|-------|---------|
@@ -73,11 +71,13 @@ _Table 2. List of marker genes for each cell type._
 |6|SPI1, CD68|mDC|
 |7|TNFRSF17, CD38, IGHG1|Plasma B cells|
 
-_Figure 4. Marker genes visualization. A – Dot Plot Visualization of Marker Gene Expression Across Cell Types; B – Violin Plot Distribution of Marker Gene Expression Across Cell Types._
+_Table 2. List of marker genes for each cell type._
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/09_Fig4.png" align='center', width="50%">
 </div>
+
+_Figure 4. Marker genes visualization. A – Dot Plot Visualization of Marker Gene Expression Across Cell Types; B – Violin Plot Distribution of Marker Gene Expression Across Cell Types._
 
 ## Discussion
 The annotation of seven out of the eight cell populations demonstrated definitive results. An exception was observed in the CD4+ transitional memory group, which showed a lower expression of genes, annotated specifically with the markers RORA and CCR7. A point of particular interest is the overlap in the gene expression profiles of Monocytes and Myeloid dendritic cells (mDCs). Monocytes were primarily identified by the expression of FCN1, VCAN, and AIF1, while exhibiting lower levels of SPI1 and CD68. In contrast, mDCs shared the expression of FCN1 and AIF1 but were distinctively marked by higher levels of SPI1 and CD68, which are more definitive for this group. This annotation approach considered the bone marrow origin of these cells, recognizing the shared lineage yet distinct transcriptional and functional profiles—monocytes being key in inflammatory processes and mDCs in antigen presentation and T cell activation [^7], [^8].

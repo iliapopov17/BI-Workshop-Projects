@@ -24,13 +24,11 @@ To determine the primary biological processes involving differentially expressed
 ### Alignment and Quantification
 An assessment of the sequencing data quality was performed using the FastQC utility, which provided a distribution of quality and other statistical measures for each sample. The average quality (Phred-score) across all reads and samples was found to be around 35. The count of sequence reads for each sample was depicted in Figure 1. Subsequent alignment of the reads to the reference sequence using HISAT2 revealed an alignment rate of 94-96% (Table 1). The featureCounts analysis showed that about 74% of all alignments were successfully mapped to a specific feature from the annotation (Table 2). Interestingly, the total number of alignments exceeded the total number of reads for each sample, indicating that some reads were aligned to the reference multiple times.
 
-_Figure 1. The number of sequences counts for each read._
-
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/MultiQC.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/multiqc.png" align='center', width="50%">
 </div>
 
-_Table 1. Summary of alignment results using the HISAT2 utility._
+_Figure 1. The number of sequences counts for each read._
 
 |Sample name|Total reads number|Reads aligned 1 time|Alignment rate|
 |-----------|------------------|--------------------|--------------|
@@ -39,7 +37,7 @@ _Table 1. Summary of alignment results using the HISAT2 utility._
 |SRR941818|1721675|1508002|96.22%|
 |SRR941819|6172452|5368133|96.28%|
 
-_Table 2. Summary of featureCount results._
+_Table 1. Summary of alignment results using the HISAT2 utility._
 
 |Sample name|Total alignments|Assigned alignments|
 |-----------|----------------|-------------------|
@@ -48,22 +46,22 @@ _Table 2. Summary of featureCount results._
 |SRR941818|1885543|1406729 (74.6%)|
 |SRR941819|6800272|4994723 (73.4%)|
 
+_Table 2. Summary of featureCount results._
+
 ### Differential Expression
 The identification of significantly differentially expressed genes prior to and following fermentation was achieved and graphically represented in a heatmap (Figure 2). Utilizing the HISAT2 + featureCounts + DESeq2 pipeline for analysis, a total of 1905 genes exhibited significant differential expression (with an absolute log2FoldChange > 2 and padj < 0.05). Of these, 987 genes were upregulated, and 918 genes were downregulated. The distribution of significantly differentially expressed genes was depicted in a volcano plot (Figure 3), with the top 5 upregulated and downregulated genes highlighted and enumerated in Table 3.
-
-_Figure 2. Heatmap for significantly differentially expressed genes before (SRR941816 & SRR941817) and after fermentation (SRR941818 & SRR941819). Gradient from violet to green in cells of heatmap stands for log2FoldChange value (from neg- ative to positive, respectively). Data were visualized using R DESeq2 package._
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/heatmap.png" align='center', width="50%">
 </div>
 
-_Figure 3. Volcanoplot. Top 5 upregulated and downregulated genes are marked._
+_Figure 2. Heatmap for significantly differentially expressed genes before (SRR941816 & SRR941817) and after fermentation (SRR941818 & SRR941819). Gradient from violet to green in cells of heatmap stands for log2FoldChange value (from neg- ative to positive, respectively). Data were visualized using R DESeq2 package._
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/volcanoplot.png" align='center', width="50%">
 </div>
 
-_Table 3. Top Five Upregulated and Downregulated Genes at 30 Minutes of Fermentation._
+_Figure 3. Volcanoplot. Top 5 upregulated and downregulated genes are marked._
 
 |Gene ID|Log2FoldChange|padj|Product|
 |-------|--------------|----|-------|
@@ -80,32 +78,34 @@ _Table 3. Top Five Upregulated and Downregulated Genes at 30 Minutes of Fermenta
 |YDR342C|-4.507653|2.983276e-26|High-affinity glucose trans- porter; member of the major fa- cilitator superfamily|
 |YCR021C|-4.451892|1.118774e-24|Negative regulator of the H(+)-ATPase _Pma1p_; stress-responsive protein|
 
+_Table 3. Top Five Upregulated and Downregulated Genes at 30 Minutes of Fermentation._
+
 ### Functional Annotation
 Gene Ontology (GO) terms associated with upregulated genes were predominantly related to ribosome synthesis (Figure 4a). In the context of ribosome biogenesis, upregulated genes were indicated in the visualization of the KEGG pathway (Figure 5). Conversely, the annotations of downregulated genes were primarily associated with various metabolic pathways, with a particular emphasis on carbohydrate and pyruvate metabolism (Figure 6a). For the citrate and pyruvate metabolic pathways, downregulated genes were indicated in the visualization of the KEGG pathway (Figure 7). Figures 4b and 6b depict the connection network for annotated GO biological processes for upregulated and downregulated genes, respectively.
-
-_Figure 4. KEGG enrichment analysis (a) and GO network of biological processes (b) for upregulated genes. Visualization were performed on websource shinyGO v0.80_
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/up_reg_genes.png" align='center', width="50%">
 </div>
 
-_Figure 5. KEGG pathway for ribosome biogenesis in eucary- otes with presentation of upregulated genes in green blocks. Visualization was performed on websource shinyGO v0.80_
+_Figure 4. KEGG enrichment analysis (a) and GO network of biological processes (b) for upregulated genes. Visualization were performed on websource shinyGO v0.80_
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/ribosome_biogenesis.png" align='center', width="50%">
 </div>
 
-_Figure 6. KEGG enrichment analysis (a) and GO network of bi- ological processes (b) for downregulated genes. Visualization was performed on websource shinyGO v0.80_
+_Figure 5. KEGG pathway for ribosome biogenesis in eucary- otes with presentation of upregulated genes in green blocks. Visualization was performed on websource shinyGO v0.80_
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/down_reg_genes.png" align='center', width="50%">
 </div>
 
-_Figure 7. KEGG pathway for citracte cycle and pyruvate metabolism with presentation of downregulated genes in red blocks. Visualization was performed on websource shinyGO v0.80_
+_Figure 6. KEGG enrichment analysis (a) and GO network of bi- ological processes (b) for downregulated genes. Visualization was performed on websource shinyGO v0.80_
 
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/TCA_cycle_and_pyruvate_metabolism.png" align='center', width="50%">
 </div>
+
+_Figure 7. KEGG pathway for citracte cycle and pyruvate metabolism with presentation of downregulated genes in red blocks. Visualization was performed on websource shinyGO v0.80_
 
 ## Discussion
 During this study, the analysis of Saccharomyces cerevisiae RNA sequencing results included the evaluation of read quality, alignment to the reference genome, and assignment to genomic features. Subsequently, a differential expression analysis was conducted to identify changes in the yeast transcriptome following a 30-minute fermentation period. The shift to anaerobic conditions led to significant alterations in gene expression across various biological processes, with a substantial number exhibiting low p-values. Table 3 details the top five upregulated and downregulated genes, along with their corresponding products.

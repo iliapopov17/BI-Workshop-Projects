@@ -27,18 +27,17 @@ The file `amp_res_1.fastq` contains 1,823,504 lines, that is, 455,876 reads. The
 When both files were trimmed with a quality index of 20, the number of reads decreased to 446,259. When trimming with a quality score of 30, the number of reads decreased to 360,209.
 When the reads were aligned using samtools flagstat, all reads (892,776) were aligned. 99.87% of the reads were mapped to the reference.
 
-_Table 1. Number of reads on the start, after trimming, aligned and mapped. *30 quality score trimming was used just as test. In the workflow 20 quality score trimming was used._
-
 |       |Start|Trimming - 20|Trimming -30|Aligned|Mapped|
 |-------|-----|-------------|------------|-------|------|
 |Forward|455,876|446,259|360,209|892,776|891,649(99.87%)|
 |Reverse|455,876|446,259|360,209|
 
+_Table 1. Number of reads on the start, after trimming, aligned and mapped. *30 quality score trimming was used just as test. In the workflow 20 quality score trimming was used._
+
 ### Variant calling
 VarScan detects the same results at 50% and 70% non-reference bases in the position required to recognise it as a mutation in the sample. 70% were used.
 
 ### Annotation
-_Table 2. Annotated SNPs with their description._
 
 |Position|Type of mutation|Reference|Alternative|Protein|Gene product|NCBI Reference|
 |--------|----------------|---------|-----------|-------|------------|--------------|
@@ -49,7 +48,7 @@ _Table 2. Annotated SNPs with their description._
 |3535147|Missense variant|T|G|Val241Gly|Sensor histidine kinase _EnvZ_|[NP_417863.1](https://www.ncbi.nlm.nih.gov/protein/16131281)|
 |4390754|Synonymous variant|C|A|Ala252Ala|Ribosome small subunit-dependent GTPase _ARsgA_|[NP_418585.4](https://www.ncbi.nlm.nih.gov/protein/90111696)|
 
-
+_Table 2. Annotated SNPs with their description._
 
 ### Discussion
 Ampicillin acts as an irreversible inhibitor of the enzyme transpeptidase, which is needed by bacteria to make the cell wall [^5].Our resistant bacterium has a mutation in the _ftsI_ gene, which is an essential cell division protein that catalyses the cross-linking of the peptidoglycan cell wall at the division septum. This protein is inhibited by beta-lactam antibiotics such as penicillin, moenomycin, macarbomycin, furazlocillin, piperacillin and ampicillin [^12]. Antibiotics inhibit the activity by binding to the catalytic serine, ftsIhas a penicillin-binding domain at the C-terminus, and the mutation is in that region. Hence, ampicillin cannot bind to _ftsI_ protein.

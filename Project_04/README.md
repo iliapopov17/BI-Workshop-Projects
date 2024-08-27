@@ -36,31 +36,31 @@ After applying `WoLF PSORT` for subcellular localization prediction, we strategi
 
 Figure 1 illustrates the results of the initial `WoLF PSORT` analysis conducted on the set of 34 protein sequences. The figure provides a comprehensive overview of the diverse subcellular localization predictions for these proteins, highlighting the various cellular compartments they may be associated with. This initial analysis served as a crucial step in the selection process, guiding subsequent decisions to focus on proteins with nuclear localization for further investigation.
 
-_Figure 1. Initial `WoLF PSORT` results._
-
 ![04_Fig1](https://github.com/user-attachments/assets/697685d2-e8ed-45a1-9524-042cc3f82330)
+
+_Figure 1. Initial `WoLF PSORT` results._
 
 Figure 2 displays the refined `WoLF PSORT` results after meticulous sorting to include only proteins exhibiting nuclear localization. The figure underscores our focused approach, retaining 12 protein sequences that specifically localize to the cell nucleus. This stringent selection aligns with our overarching objective of scrutinizing genes related to DNA repair mechanisms.
 
-_Figure 2. `WoLF PSORT` results after sorting nuclear localization only._
-
 ![04_Fig2](https://github.com/user-attachments/assets/854245e2-a17b-4e7b-a8d3-72bf3449d6e3)
+
+_Figure 2. `WoLF PSORT` results after sorting nuclear localization only._
 
 In addition to `WoLF PSORT`, we employed `TargetP` for further localization prediction, generating a comprehensive summary of the 12 selected protein sequences. The results indicate that all proteins fall into the 'Other' category, as none of them are associated with a ‘Signal peptide’ or ‘Mitochondrial transfer peptide’. This outcome refines our focus, homing in on proteins with diverse cellular localizations within the 'Other' category. The absence of Signal peptides or Mitochondrial transfer peptides suggests that the identified proteins may have distinct roles within the cell, warranting a closer examination of their functions in subsequent analyses.
 
 ### BLAST Search:
 The `BLAST` search provided insights into the homology of our protein sequences. Out of the initial set of 12 protein sequences, `BLAST` successfully identified hits for 7 of them. Interestingly, only one protein, _g14472.t1_, obtained a best hit. The results for this protein are particularly significant, revealing a perfect E-value of 0.0 and annotation as a 'Damage suppressor protein' [^12]. This emphasizes the potential importance of _g14472.t1_ in the context of DNA repair mechanisms, indicating its role as a putative damage suppressor protein in tardigrades.
 
-_Figure 3. Graphic Summary on top 1 Blast Hit._
-
 ![04_Fig3](https://github.com/user-attachments/assets/33bdd726-a865-4a24-9f7c-4563c38b55d1)
+
+_Figure 3. Graphic Summary on top 1 Blast Hit._
 
 ### Pfam Prediction:
 The `Pfam` prediction analysis aimed to identify potential protein domains within our set of sequences. However, the results were distinctive, revealing predicted `Pfam` domains for only 5 out of the 12 proteins, while the protein of interest, _g14472.t1_, showed no predicted Pfam domains.
 
-_Figure 4. Summary of Pfam prediction results._
-
 ![04_Fig4](https://github.com/user-attachments/assets/ce4c52c8-50a6-4e5d-bf47-c1a4b4f24fe1)
+
+_Figure 4. Summary of Pfam prediction results._
 
 ## Discussion
 Our exploration of tardigrade genomes, specifically focusing on DNA repair-related proteins, has revealed intriguing candidates with potential implications for understanding the molecular mechanisms underlying tardigrades' exceptional stress resistance. In particular, the analysis of the chromatin- associating protein encoded by _g14472.t1_ presents compelling evidence of its significant role in the organism's tolerance to harsh environmental stresses.

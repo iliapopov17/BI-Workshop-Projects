@@ -54,8 +54,6 @@ Initially, our sequencing results yielded approximately 5000 reads per analyzed 
 
 Using the `DADA2` v1.30.0 pipeline, chimeric sequences within the V5 16S regions were filtered out. These regions are particularly informative for profiling oral metagenomes, as they are consistently present across metadata samples. Remarkably, over 90% of reads in each sample successfully passed all filters and were confirmed as non-chimeric.
 
-_Table 1. Basic statistics of initial sequencing reads and their statistics after their trimming and filtering._
-
 |Sample-id|Initial reads|Filtered reads|Passed filter, %|Denoised|Non-chimeric|Input non-chimeric, %|
 |---------|-------------|--------------|----------------|--------|------------|---------------------|
 |S10-V5-Q-B61-calc|5957|5695|95.60|5575|5559|93.32|
@@ -68,17 +66,19 @@ _Table 1. Basic statistics of initial sequencing reads and their statistics afte
 |S22S23-V5-N-B78-root|4695|4534|96.57|4382|4261|90.76|
 |S8-V5-O-G12-calc|5362|5199|96.96|5108|5092|94.96|
 
+_Table 1. Basic statistics of initial sequencing reads and their statistics after their trimming and filtering._
+
 ### Feature Distribution
 Analysis resulted in the clustering of amplicon sequences into amplicon sequence variants (ASVs), which serve as a higher-resolution analogue of traditional operational taxonomic units (OTUs). Notably, we observed that only a few dominant features were consistently present in the majority of samples. This outcome aligns with our focus on conservative sequences.
 
 ### Microbiome Composition
 Figure 1 illustrates the relative abundance of bacterial phyla in the calculus samples. Seven dominant phyla were identified: _Firmicutes_, _Proteobacteria_, _Bacteroidetes_, _Synergistetes_, _Actinobacteria_, _Fusobacteria_, and _Spirochaetes_. Interestingly, the root samples also contained bacteria from _Firmicutes_, _Proteobacteria_, _Bacteroidetes_, and _Actinobacteria_, albeit in different proportions and compositions.
 
-_Figure 1. Taxonomic composition of analyzed ancient samples._
-
 <div style='justify-content: center'>
 <img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_07/img/TaxComp.png" align='center', width="50%">
 </div>
+
+_Figure 1. Taxonomic composition of analyzed ancient samples._
 
 These findings provide valuable insights into the diversity and taxonomic composition of ancient oral microbiomes, shedding light on the historical health and ecological context of the studied individuals.
 
@@ -91,8 +91,6 @@ Acquired Genes and Their Functions: These acquired genes fall into distinct func
 3.	DNA Repair and Post-Translational Modification: Crucial for maintaining genome stability.
 4.	Antibiotic Biosynthesis and Drug Resistance: Reflecting the strain’s interactions with its environment.
 5.	Metabolism: Genes related to nutrient utilization and energy production.
-
-_Table 2. Examples of several protein coding genes acquired by the Tannerella forsythia 92A2 strain._
 
 |Product|Protein_id|Protein_group|
 |-------|----------|-------------|
@@ -115,6 +113,8 @@ _Table 2. Examples of several protein coding genes acquired by the Tannerella fo
 |TetR/AcrR family transcriptional regulator|WP_007366503.1|HGT of plasmids|
 |dihydrofolate reductase family protein|WP_007366526.1|antibiotic resistance|
 |beta-ketoacyl-ACP synthase III|WP_007366522.1|antibiotic resistance|
+
+_Table 2. Examples of several protein coding genes acquired by the Tannerella forsythia 92A2 strain._
 
 ## Discussion
 Metagenomic analysis of dental calculus revealed a fascinating glimpse into the oral microbiome of individuals from the past millennium [^15], [^16]. By combining 16S rRNA gene sequencing and shotgun sequencing, we were able to characterize the overall bacterial composition and gain deeper insights into specific pathogens associated with periodontal disease [^17].
