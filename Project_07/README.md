@@ -1,7 +1,5 @@
 # Ancient Oral Chronicles: Unveiling Microbial Secrets Through Dental Calculus
 
-This is a short version of the report. The full version is available here: [PDF](https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%207/BI_Project_7_Popov.pdf)
-
 ### Abstract
 This study delves into the microbial communities preserved in dental calculus samples extracted from human remains dating back over a millennium. By analyzing these ancient biomolecules, we gain insights into historical diseases, dietary patterns, and the evolutionary trajectories of typical oral bacteria. Notably, the presence of the red complex - a group of pathogens associated with severe periodontal disease-stands out in ancient oral microbiomes.
 
@@ -54,7 +52,7 @@ _Table 1. Basic statistics of initial sequencing reads and their statistics afte
 _Table 2. Examples of several protein coding genes acquired by the Tannerella forsythia 92A2 strain._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%207/img/TaxComp.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_07/img/TaxComp.png" align='center', width="50%">
 </div>
 
 _Figure 1. Taxonomic composition of analyzed ancient samples._
@@ -67,4 +65,4 @@ Metagenomic analysis sheds light on the ancient human microbiome. The red comple
 In this repository you can find:
 
 - `BI_Project_7_Popov.pdf`  - report on the project in thesis format
-- `Lab journal.ipynb` - laboratory journal with commands to reproduce pipeline
+- `07_Lab_journal.ipynb` - laboratory journal with commands to reproduce pipeline

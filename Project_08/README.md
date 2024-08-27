@@ -1,7 +1,5 @@
 # T-cell receptor diversification and specialisation: analysis of β-cell repertoire and phenotypic characterisation in response to cytomegalovirus
 
-This is a short version of the report. The full version is available here: [PDF](https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%208/BI_Project_8_Popov.pdf)
-
 ### Abstract
 This study investigates the diversity and specialization of T-cell receptor (TCR) β-chain repertoires in response to cytomegalovirus (CMV), utilizing 16 samples from two donors, one CMV+. Through 5’-RACE sequencing and phenotypic analysis, we identified distinct T-cell populations and phenotypes, revealing specialized antigen responses and potential CMV recognition in CMV- donors.
 
@@ -36,25 +34,25 @@ Differences in CDR3 utilization profiles suggested distinct T-cell subclasses. H
 _Table 1. Metadata Summary for TCR β-Chain Repertoire Samples. Asterisks indicate potential donor mismatches for  CD4 samples, necessitating a swap of CMV statuses due to  the inability to conclusively match CD4 and CD8 cells from  the same donor._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%208/imgs/CDR3.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_08/imgs/CDR3.png" align='center', width="50%">
 </div>
 
 _Figure 1. Heat map of CDR3 utilisation._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%208/imgs/correlation.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_08/imgs/correlation.png" align='center', width="50%">
 </div>
 
 _Figure 2.  Correlation patterns between samples._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%208/imgs/antigenic.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_08/imgs/antigenic.png" align='center', width="50%">
 </div>
 
 _Figure 3. Antigenic profile histogram._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%208/imgs/HLA.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_08/imgs/HLA.png" align='center', width="50%">
 </div>
 
 _Figure 4. HLA allele profile histogram._

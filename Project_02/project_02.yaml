@@ -1,4 +1,4 @@
-name: RareSNP
+name: project_02
 channels:
   - conda-forge
   - bioconda

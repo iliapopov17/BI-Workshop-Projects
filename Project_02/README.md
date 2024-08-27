@@ -133,7 +133,7 @@ To enhance the reliability of deep sequencing experiments and control for potent
 **Files**:
 - `BI_Project_2_Petrikov-Popov.pdf` - report on the project in thesis format
 - `Snakefile`  - rules file  for Snakemake workflow to reproduce pipeline
-- `project2.yml` - file for setting up the conda/mamba virtual environment
+- `project_02.yaml` - file for setting up the conda/mamba virtual environment
 - `vcf_parser.py` - Python script to extract values from vcf-file columns `REF`, `POS`, `ALT,` and `FORMAT:FREQ` to tsv-file.
 
 **The script can be used standalone for any vcf.**
@@ -156,11 +156,11 @@ T	1458	C	0.84
 
 **snakefile's folder must contain `{reference}.fna` - reference sequence, `{sample}.fastq` - sample reads.**
 
-- Create new environment `RareSNP` or specified any name you want
+- Create new environment `project_02` or specified any name you want
 ```bash
-conda env create -f project2.yml
+conda env create -f project_02.yaml
 #
-conda env create -f project2.yml -n [^ENV_NAME]
+conda env create -f project_02.yaml -n [^ENV_NAME]
 ```
 
 - To run Snakemake workflow specify output tsv-file as `{reference}.{sample}.tsv`. 

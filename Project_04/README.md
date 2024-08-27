@@ -79,7 +79,7 @@ In conclusion, our study sheds light on a novel candidate, _g14472.t1_, as a pot
 
 **Files**:
 - `BI_Project_4_Popov-Erofeeva.pdf`  - report on the project in thesis format
-- `Lab journal.ipynb` - laboratory journal with commands to reproduce pipeline
+- `04_Lab_journal.ipynb` - laboratory journal with commands to reproduce pipeline
 - `sort_nucl_loc.py` - script to sort proteins only with nuclear localisation
 - `wolfpsort_result.txt` - initial WoLF PSORT results
 

@@ -1,4 +1,4 @@
-name: BI_proj1
+name: project_01
 channels:
   - bioconda
   - conda-forge

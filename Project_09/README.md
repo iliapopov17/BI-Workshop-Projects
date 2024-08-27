@@ -1,6 +1,4 @@
-# Unveiling Cellular Dynamics: Single-Cell Profiling of Human Bone Marrow 
-
-This is a short version of the report. The full version is available here: [PDF](https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%209/BI_Project_9_Popov.pdf)
+# Unveiling Cellular Dynamics: Single-Cell Profiling of Human Bone Marrow
 
 ### Abstract
 This study employs CITE-seq technology to explore the cellular landscape of human bone marrow, identifying distinct cell populations and their transcriptional profiles. Utilizing Scanpy for data analysis, the research delineates various immune cells, emphasizing the nuanced differences between monocytes and myeloid dendritic cells. The findings enhance our understanding of cellular differentiation and immune function within the bone marrow.
@@ -22,19 +20,19 @@ _Table 1. Results of CITE-seq dataset quality control._
 Eight major cell groups were identified, including various T cells and dendritic cells. Key findings include:
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%209/imgs/tSNE.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/tSNE.png" align='center', width="50%">
 </div>
 
 _Figure 1. T-distributed Stochastic Neighbor Embedding (t-SNE) Clustering of Annotated Cell Types._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%209/imgs/marker_genes_dot_plot.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/marker_genes_dot_plot.png" align='center', width="50%">
 </div>
 
 _Figure 2. Dot Plot Visualization of Marker Gene Expression Across Cell Types._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project%209/imgs/marker_genes_violin_plot.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_09/imgs/marker_genes_violin_plot.png" align='center', width="50%">
 </div>
 
 _Figure 3. Violin Plot Distribution of Marker Gene Expression Across Cell Types._
@@ -50,7 +48,7 @@ The study highlighted the complexity of cellular identities in the bone marrow, 
 In this repository you can find:
 
 - `BI_Project_8_Popov.pdf`  - report on the project in thesis format
-- `Lab journal.ipynb` - laboratory journal with commands to reproduce pipeline
+- `09_Lab_journal.ipynb` - laboratory journal with commands to reproduce pipeline
 - Dataset for this work is available at my [Google Drive](https://drive.google.com/drive/folders/12BzKtr0yRJ-nNJiplJyBLH3Rh1ohfmKd?usp=sharing)
 - I used the pipeline from the Scanpy tutorial
 - I know about existence of the "Single-cell best practices book". The problem is that right now it is impossible to be used. It requires using both `Pyhon` and `R` at the same time. Yet the newest version of `rpy2` is broken. Version 3.5.1 is not compatible with `anndata2ri`. Closed loop. I wish to learn more from the "Single-cell best practices book" in a bright future.
