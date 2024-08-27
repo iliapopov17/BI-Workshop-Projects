@@ -11,7 +11,8 @@ Dental calculus, or mineralized dental plaque, serves as a unique reservoir of a
 Among the microbial players in ancient dental calculus, the «red complex» stands out. This group of bacteria is consistently associated with severe forms of periodontal disease. Notably, the red complex includes three key species:
 -	_Porphyromonas gingivalis_: known for its virulence factors, P. gingivalis plays a central role in periodontitis progression.
 -	_Tannerella forsythia_: contributes to tissue destruction and inflammation in periodontal disease.
--	_Treponema denticola_: associated with subgingival plaque and periodontitis pathogenesis.
+-	_Treponema denticola_: associated with subgingival plaque and periodontitis pathogenesis.<br>
+
 Understanding the prevalence and impact of the red complex in ancient oral microbiomes informs our knowledge of historical health challenges [^7], [^8].
 Shotgun sequencing analysis reveals regions of zero coverage in the modern T. forsythia 92A2 strain. These regions likely represent genetic material acquired during evolution which highlights the dynamic nature of the oral microbiome over millennia.
 Root samples were also explored, which exhibit different bacterial phyla proportions and compositions compared to calculus samples. These variations reflect ecological niches and host interactions, providing insights into ancient oral ecosystems.
@@ -30,14 +31,17 @@ The `QIIME2` pipeline encompassed the following steps:
 7.	Each step of the analysis was visualized using `QIIME2`.
 
 ### Shotgun Sequencing of Dental Calculus Microbiome
-Shotgun sequencing was conducted on a DNA sample extracted from the dental calculus microbiome of individual G12 (skeleton dating from AD 950-1200) who suffered from periodontal disease. The resulting reads were assembled into contigs. To facilitate comparison, we obtained a precomputed assembly of the ancient Tannerella forsythia genome specific to the G12 individual.
+Shotgun sequencing was conducted on a DNA sample extracted from the dental calculus microbiome of individual G12 (skeleton dating from AD 950-1200) who suffered from periodontal disease. The resulting reads were assembled into contigs. To facilitate comparison, we obtained a precomputed assembly of the ancient Tannerella forsythia genome specific to the G12 individual.<br>
+
 **Metagenome Assembly**:
 -	The shotgun sequencing data from the G12 sample were assembled into contigs.
 -	A precomputed assembly for the _Tannerella forsythia_ 92A2 genome specific to the G12 individual was obtained.<br>
+
 **Alignment and Annotation**:
 -	The G12 metagenome assembly was aligned to the _Tannerella forsythia_ 92A2 reference genome using `BWA-mem` v0.7.17 [^12].
 -	`Samtools` v1.19.2 [^13] was used to compress, sort, and index the aligned reads against the reference genome.
 -	Basic statistics of the resulting alignment were obtained using the `samtools` flagstat command.<br>
+
 **Conversion and Annotation Visualization**:
 -	The alignment results were converted to .bed format using `BEDtools` v2.31.1 [^14] (bedtools bamtobed).
 -	Genome regions absent in the ancient strain were subtracted from the `GFF3` annotation using `bedtools` intersect (with the `-v` option).
