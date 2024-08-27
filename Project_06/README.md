@@ -54,7 +54,7 @@ The identification of significantly differentially expressed genes prior to and 
 _Figure 2. Heatmap for significantly differentially expressed genes before (SRR941816 & SRR941817) and after fermentation (SRR941818 & SRR941819). Gradient from violet to green in cells of heatmap stands for log2FoldChange value (from neg- ative to positive, respectively). Data were visualized using R DESeq2 package._
 
 <div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/Heatmap.png" align='center', width="50%">
+<img src="https://github.com/iliapopov17/BI-Workshop-miniProjects/blob/main/Project_06/img/heatmap.png" align='center', width="50%">
 </div>
 
 _Figure 3. Volcanoplot. Top 5 upregulated and downregulated genes are marked._
