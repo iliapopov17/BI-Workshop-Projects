@@ -10,7 +10,7 @@ This study employs computational methodologies, focusing on gene prediction and 
 
 ## Materials and methods
 ### Genome retrieval
-We obtained the genomic data for _Ramazzottius varieornatus_ (strain YOKOZUNA-1) from the National Center for Biotechnology Information (NCBI) database, specifically the assembly with accession number [GCA_001949185.1](https://www.ncbi.nlm.nih.gov/datasets/genome/?taxon=42241) [^5].
+We obtained the genomic data for _Ramazzottius varieornatus_ (strain YOKOZUNA-1) from the National Center for Biotechnology Information (NCBI) database, specifically the assembly with accession number [GCA_001949185.1](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/949/185/GCA_001949185.1_Rvar_4.0/) [^5].
 
 ### Structural Annotation:
 To functionally annotate the genomic regions, we utilized precomputed `AUGUSTUS` results, including protein `fasta` and `GFF` files. The `getAnnoFasta.pl` script was employed to extract protein sequences from the `AUGUSTUS` prediction output [^6].
